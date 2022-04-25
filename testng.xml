@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeSuite" parallel="tests">
+    <test name="tests.SmokeTestsChrome" parallel="methods" thread-count="3">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="SEARCH_KEYWORD" value="Laptop"/>
+        <parameter name="BRAND_KEYWORD" value="HP"/>
+        <parameter name="COMPARATIVE_SUM_PRICE" value="500000"/>
+        <classes>
+            <class name="tests.AddToCartTest">
+                <methods>
+                    <include name="checkTotalPriceInCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

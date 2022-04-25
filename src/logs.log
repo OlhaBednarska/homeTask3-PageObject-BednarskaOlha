@@ -1,0 +1,12 @@
+  2022-04-26 01:06:58 INFO  AddToCartTest:19 - Test 1-'Check total price in the cart'
+  2022-04-26 01:07:07 INFO  AddToCartTest:22 - time to wait 1
+  2022-04-26 01:07:13 INFO  AddToCartTest:26 - time to wait 2
+  2022-04-26 01:07:16 INFO  AddToCartTest:29 - time to wait 3
+  2022-04-26 01:07:19 INFO  AddToCartTest:35 - Total price match
+  2022-04-26 01:08:53 INFO  AddToCartTest:19 - Test 1-'Check total price in the cart'
+  2022-04-26 01:09:01 INFO  AddToCartTest:22 - time to wait 1
+  2022-04-26 01:09:07 INFO  AddToCartTest:26 - time to wait 2
+  2022-04-26 01:09:10 INFO  AddToCartTest:29 - time to wait 3
+  2022-04-26 01:09:13 INFO  AddToCartTest:32 - time to wait 4
+  2022-04-26 01:09:13 INFO  AddToCartTest:36 - Total price match
+  
